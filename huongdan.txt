@@ -1,0 +1,42 @@
+﻿1. Tạo 1 local reponsitory:
+	$ git init [tên thư mục]
+	Examp: $ git init Git demo
+
+2.Tạo remote reponsitory trên máy chủ từ xa- GitHub
+	https://github.com/TQCOM/HocGit
+
+3. Clone reponsitory về máy tính:
+
+	$ git clone https://github.com/TQCOM/HocGit
+
+4. Kiểm tra trạng thái của tập tin:
+	$ git status
+
+5. Tạo 1 tập tin rỗng:
+	$ touch [tên tập tin] Example: touch thom.excel
+
+6. Đưa tập tin lên Staging Area:
+	$ git add [tập tin] hoạc $ git add *
+
+7. Commit 1 tập tin lên reponsitory local
+	$ git commit -m "bình luân"
+
+8. Đấy tập tin lên remote repository
+	$ git push origin master
+
+9. Xem lịch sử các lần commit
+	$ git log
+Xem chi tiết hơn thì:
+	$ git log -p
+Chỉ xem lần commit cuối cùng thì:
+	$ git log -1
+
+10. Thiết lập xem log đẹp hơn:
+	$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+Khi thiết lâp xong muốn xem log thì chỉ cần gõ:
+	$ git lg
+
+11. 
+
+
