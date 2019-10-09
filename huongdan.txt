@@ -1,4 +1,4 @@
-﻿1. Tạo 1 local reponsitory:
+﻿	1. Tạo 1 local reponsitory:
 	$ git init [tên thư mục]
 	Examp: $ git init Git demo
 
@@ -37,6 +37,28 @@ Chỉ xem lần commit cuối cùng thì:
 Khi thiết lâp xong muốn xem log thì chỉ cần gõ:
 	$ git lg
 
-11. 
+11. Loại bỏ tập tin ra khỏi Staging area
+	$ git reset HEAD tên_file
+
+12. Tạo mới 1 branch:
+	$ git branch tên_branch
+
+13. Kiểm tra các branch hiện có:
+	$ git branch
+
+14. Kiểm tra xem đang ở branch nào:
+	$ cat .git/HEAD
+
+15. Chuyển branch:
+	$ git checkout tên_branch
+
+16. Xem danh sách các file có trong branch hiện tại
+	$ ls
+
+17. Gộp dữ liệu từ 1 branch:
+	$ git merge tên_branch
+
+18. Xóa 1 branch (dữ liệu của branch bị xóa phải được merge vào branch khác mới đc xóa)
+	$ git branch -d tên_branch
 
 
